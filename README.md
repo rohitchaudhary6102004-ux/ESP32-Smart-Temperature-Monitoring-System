@@ -46,27 +46,61 @@ ESP32-based IoT temperature monitoring system with a real-time web dashboard usi
 • JavaScript
 • Arduino IDE
 
+## Hardware Connections
+
+| DHT11 Pin | ESP32 Pin |
+|------------|-----------|
+| VCC | 3.3V |
+| GND | GND |
+| DATA | GPIO 4 |
+
+## Libraries Used
+
+- WiFi.h
+- WebServer.h
+- LittleFS.h
+- FS.h
+- ESPmDNS.h
+- DHT.h
+
+## Getting Started
+
+1. Install Arduino IDE.
+2. Install the ESP32 Board Package (v2.0.16 recommended).
+3. Install all required libraries.
+4. Create a `data` folder and place:
+   - index.html
+   - style.css
+   - script.js
+5. Upload the LittleFS filesystem.
+6. Upload the sketch to the ESP32.
+7. Connect to the same Wi-Fi network.
+8. Open:
+
+```
+http://espbyrohit.local
+```
+
 ## Project Structure
 
-
-ESP32-Smart-Monitoring-Dashboard
+```
+ESP32-Smart-Temperature-Humidity-Dashboard/
 │
-├── ESP32-Smart-Monitoring-Dashboard.ino
+├── Code/
+│   └── ESP32-Smart-Temperature-Humidity-Dashboard.ino
 │
-├── data
+├── data/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
+├── Images/
+│   ├── dashboard.png
+│   ├── circuit.png
+│   └── hardware.jpg
+│
 └── README.md
-
-🚀 Getting Started
-
-1. Flash the code to ESP32.
-2. Upload LittleFS files.
-3. Connect ESP32 to WiFi.
-4. Open:
-   http://espbyrohit.local
+```
 
 ## Dashboard Screenshot
 
