@@ -84,17 +84,16 @@ http://espbyrohit.local
 ## Project Structure
 
 ```
-ESP32-Smart-Temperature-Humidity-Dashboard/
+ESP32-Smart-Temperature-Humidity-Dashboard
 │
-├── Code/
-│   └── ESP32-Smart-Temperature-Humidity-Dashboard.ino
+├── Code
+│   ├── ESP32_TempHum_Dashboard.ino
+│   └── data
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
 │
-├── data/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── Images/
+├── Images
 │   ├── dashboard.png
 │   ├── circuit.png
 │   └── hardware.jpg
