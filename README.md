@@ -1,6 +1,10 @@
 # ESP32-Smart-Temperature-Humidity-Monitoring-System
 ESP32-based IoT temperature monitoring system with a real-time web dashboard using Arduino IDE, ESP32, DHT11, HTML, CSS and JavaScript.
 
+## Live Demo
+
+![Live Demo](Images/dashboard_demo.gif)
+
 ## Dashboard Preview
 
 <p align="center">
