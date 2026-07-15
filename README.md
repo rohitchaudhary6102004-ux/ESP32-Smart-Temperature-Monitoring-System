@@ -3,15 +3,21 @@ ESP32-based IoT temperature monitoring system with a real-time web dashboard usi
 
 ## Dashboard Preview
 
-![Dashboard](Images/dashboard.png)
+<p align="center">
+  <img src="Images/dashboard.png" width="900">
+</p>
 
 ## Circuit Diagram
 
-![Circuit Diagram](Images/circuit.png)
+<p align="center">
+  <img src="Images/circuit.png" width="500">
+</p>
 
 ## Hardware Setup
 
-![Hardware Setup](Images/hardware.jpg)
+<p align="center">
+  <img src="Images/hardware.jpg" width="500">
+</p>
 
 ## Features
 
