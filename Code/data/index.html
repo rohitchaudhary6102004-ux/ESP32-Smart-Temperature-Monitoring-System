@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESP32 Smart Monitoring Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="title">
+            <h1>ESP32 Smart Monitoring Dashboard</h1>
+            <p>ESP32 Web Monitoring System</p>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div class="card">
+
+            <div class="icon">🌡️</div>
+
+            <h2>Temperature</h2>
+
+            <h1 id="temp">32°C</h1>
+
+            <p>Temperature</p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">💧</div>
+
+            <h2>Humidity</h2>
+
+            <h1 id="hum">60%</h1>
+
+            <p>Humidity</p>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>Last Updated :
+            <span id="time">--:--:--</span>
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
