@@ -96,8 +96,8 @@ ESP32-Smart-Temperature-Humidity-Dashboard
 ├── Images
 │   ├── dashboard.png
 │   ├── circuit.png
-│   └── hardware.jpg
-│
+│   ├── hardware.jpg
+│   └──dashboard_demo.gif
 └── README.md
 ```
 
